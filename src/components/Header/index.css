@@ -1,0 +1,86 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202020;
+    width: 100%;
+    height: 80px;
+    padding: 0px 20px;
+    position: sticky;
+    top: 0;
+    
+}
+.header-appLogo{
+    width: 100px;
+    cursor: pointer;
+}
+.headerIcon-container{
+    display: flex;
+    gap: 0px 30px;
+}
+.headerIcon{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.header-navLinksContainer{
+    display: none;
+}
+
+@media (min-width:768px) {
+    .headerContainer{
+        height: 100px;
+        padding: 0px 25px;
+    }
+    .header-appLogo{
+        width: 125px;
+        cursor: pointer;
+    }
+    .headerIcon-container{
+        display: none;
+    }
+    .header-navLinksContainer{
+        display: flex;
+        align-items: center;
+        gap: 0px 45px;
+    }
+    .navLinks{
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .logoutBtn{
+        font-size: 13px;
+        font-weight: 600;
+        background-color: #6366f1;
+        width: 90px;
+        height: 40px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    
+    }
+}
+
+
+@media (min-width:992px) {
+    .headerContainer{
+        height: 110px;
+        padding: 0px 25px;
+    }
+    .header-appLogo{
+        width: 125px;
+    }
+    .navLinks{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .logoutBtn{
+        font-size: 15px;
+        font-weight: 600;
+        background-color: #6366f1;
+        width: 100px;
+        height: 45px;
+        border: none;    
+    }
+}

@@ -1,0 +1,82 @@
+.jobContainer{
+    background-color: #202020;
+    padding: 25px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.jobImg-and-titleContainer{
+    display: flex;
+    align-items: center;
+    gap: 0px 25px;
+}
+.companyLogo{
+    width: 60px;
+}
+.jobTitle{
+font-size: 23px;
+}
+.jobRatingContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.ratingStarImg{
+    margin-left: -15px;
+}
+.jobRating{
+ font-size: 20px;
+}
+.jobLocationAndEmployment-and-salaryContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+
+}
+.jobLocation-and-employmentContainer{
+    display: flex;
+    align-items: center;
+    gap: 0px 20px;
+
+}
+.jobLocationContainer{
+    display: flex;
+    align-items: center;
+    gap: 0px 5px;
+
+}
+.jobLocationIcon{
+    height: 18px;
+}
+.jobLocation{
+    font-size: 15px;
+}
+.job-employmentType-Container{
+    display: flex;
+    align-items: center;
+    gap: 0px 5px;
+
+}
+.jobTypeIcon{
+    width: 21px;
+    height: 21px;
+}
+.job-employmentType{
+    font-size: 15px;
+}
+
+.jobSalary{
+    font-size: 20px;
+}
+.jobDescriptionTitle{
+    font-size: 23px;
+    margin: 10px 0px;
+}
+.jobDescription{
+    font-size: 13px;
+    line-height: 1.3;
+}
+
+@media (min-width:768px) {
+    
+}

@@ -1,0 +1,33 @@
+.JobFilter-container{
+    margin-top: 15px;
+
+}
+.JobFilter-heading{
+    font-size: 23px;
+}
+.JobFilter-list{
+    display: flex;
+    list-style-type: none;
+    gap: 0px 25px;
+    margin-top: 15px;
+    
+}
+.JobFilterInput{
+    width: 25px;
+}
+.JobFilter-label{
+    font-size: 17px;
+    cursor: pointer;
+}
+
+@media (min-width:768px) {
+    .JobFilter-heading{
+        font-size: 25px;
+    }
+    .JobFilterInput{
+        width: 27px;
+    }
+    .JobFilter-label{
+        font-size: 19px;
+    }
+}
